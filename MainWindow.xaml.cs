@@ -37,11 +37,8 @@ namespace ListView
 
     public partial class MainWindow : Window
     {
-        int num = 0;
         Binding binding = new Binding();
         ListViewWindow listViewWindow = new ListViewWindow();
-        
-        
         
         public MainWindow()
         {
