@@ -41,6 +41,8 @@ namespace ListView
         Binding binding = new Binding();
         ListViewWindow listViewWindow = new ListViewWindow();
         
+        
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -53,6 +55,11 @@ namespace ListView
         {
             binding.Datas.Add(binding.NextListViewItem);
             binding.Num += 1;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            listViewWindow.Show();
         }
     }
 }

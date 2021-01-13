@@ -9,5 +9,6 @@
     <Canvas>
         <TextBlock Text="{Binding Path=NextListViewItem}" Canvas.Left="111" TextWrapping="Wrap" Canvas.Top="72" Width="134"/>
         <Button Click="Button_Click" Content="Add Item To List" Canvas.Left="111" Canvas.Top="118" Width="134"/>
+        <Button Click="Button_Click_1" Content="Show It First" Canvas.Left="111" Canvas.Top="167" Width="134"/>
     </Canvas>
 </Window>
